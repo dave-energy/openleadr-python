@@ -21,7 +21,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name="david-energy-openleadr",
-    version="0.5.34",
+    version="0.5.35",
     description="Python3 library for building OpenADR Clients (VENs) and Servers (VTNs)",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -38,7 +38,7 @@ setup(
         "aiohttp>=3.8.3,<4.0.0",
         "apscheduler>=3.10.0,<4.0.0",
         "jinja2>=3.1.2,<4.0.0",
-        "signxml>=3.1.0,<3.3.0",
+        "signxml>=3.1.0,<4.1",
     ],
     entry_points={
         "console_scripts": ["fingerprint = openleadr.fingerprint:show_fingerprint"]
