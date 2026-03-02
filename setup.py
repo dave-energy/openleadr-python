@@ -21,7 +21,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 setup(
     name="david-energy-openleadr",
-    version="0.5.37",
+    version="0.5.38",
     description="Python3 library for building OpenADR Clients (VENs) and Servers (VTNs)",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -34,7 +34,7 @@ setup(
     python_requires=">=3.7.0",
     include_package_data=True,
     install_requires=[
-        "xmltodict==0.13.0",
+        "xmltodict>=0.13.0,<2.0.0",
         "aiohttp>=3.8.3,<4.0.0",
         "apscheduler>=3.10.0,<4.0.0",
         "jinja2>=3.1.2,<4.0.0",
